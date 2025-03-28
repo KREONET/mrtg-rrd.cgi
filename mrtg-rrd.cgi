@@ -34,6 +34,7 @@ require 5.005;
 
 # Location of RRDs.pm, if it is not in @INC
 # use lib '/usr/lib/perl5/5.00503/i386-linux';
+use lib '/usr/lib/x86_64-linux-gnu/perl5/5.34/';
 use RRDs;
 
 use vars qw(@config_files @all_config_files %targets $config_time
