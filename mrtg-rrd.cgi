@@ -132,6 +132,7 @@ sub do_html($)
 	print <<'EOF';
 <HTML>
 <HEAD>
+<META charset="UTF-8">
 <TITLE>
 EOF
 	print $tgt->{title} if defined $tgt->{title};
@@ -916,6 +917,7 @@ sub print_dir($) {
 	print <<EOF;
 <HTML>
 <HEAD>
+<META charset="UTF-8">
 <TITLE>MRTG: Directory $dir1</TITLE>
 $css
 </HEAD>
